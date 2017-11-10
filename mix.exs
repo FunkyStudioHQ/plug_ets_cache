@@ -29,7 +29,7 @@ defmodule PlugEtsCache.Mixfile do
 
   defp deps do
     [
-      {:plug, "~> 1.3.5"},
+      {:plug, "~> 1.4"},
       {:con_cache, "~> 0.12.0"},
       {:phoenix, "~> 1.3", optional: true},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false}
